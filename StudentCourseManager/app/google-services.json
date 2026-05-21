@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "474842369536",
+    "project_id": "studentcoursemanagerapp-b2e2e",
+    "storage_bucket": "studentcoursemanagerapp-b2e2e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474842369536:android:162e0f23abb2789ea952e5",
+        "android_client_info": {
+          "package_name": "com.example.studentcoursemanager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC80Q9FWphRncp2jJ8rEG6pPSTSjo0wFwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

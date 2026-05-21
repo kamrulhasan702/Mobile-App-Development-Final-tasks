@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/etCourseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Course Name"/>
+
+        <EditText
+            android:id="@+id/etCourseCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Course Code"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/etInstructor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Instructor Name"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/etCredit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Credit Hours"
+            android:inputType="number"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/etSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Schedule"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SAVE COURSE"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
